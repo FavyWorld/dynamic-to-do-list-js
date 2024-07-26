@@ -29,7 +29,8 @@ document.addEventListener('DOMContentLoaded', function() {
       removeButton.onclick = function() {
         taskList.removeChild(listItem);
       };
-  
+
+    ["classList.add"]
       // Append the remove button to the li element
       listItem.appendChild(removeButton);
       // Append the li to the taskList
