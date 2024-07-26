@@ -49,4 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
         addTask();
       }
     });
+  
+    // Invoke the addTask function on DOMContentLoaded
+    addTask();
   });
